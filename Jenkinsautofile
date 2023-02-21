@@ -1,3 +1,5 @@
+// We have to run this groovy script inside the Jenkins script console.
+
 import com.amazonaws.services.ec2.model.InstanceType
 import com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey.DirectEntryPrivateKeySource
 import com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey
